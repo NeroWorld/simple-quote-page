@@ -1,0 +1,33 @@
+/* ==== GENERAL STYLES ====*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url('assets/Freedom.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #444;
+  display: table;
+}
+
+.text {
+  width: 90%;
+  font-size: 2.1rem;
+  padding-top: 5rem;
+  margin: 4rem auto;
+  letter-spacing: .15rem;
+  line-height: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.author {
+  font-size: 1.2rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  font-style: italic;
+}
